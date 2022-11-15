@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Project1 {
     public static void main(String[] args) {
 
+        //Klavyeden Kullanıcı tarafından girilen Username ve Password' u If - Else Metodu ile karşılaştıran ve sonuca göre
+        //Kullanıcıya cevap veren bir program.
+
         Scanner input=new Scanner(System.in);
         System.out.print("Enter Username : ");
         String userName= input.next();

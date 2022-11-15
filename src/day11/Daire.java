@@ -2,6 +2,8 @@ package day11;
 
 public class Daire {
     public static void main(String[] args) {
+
+        //Dairenin Alan ve Çevre Hesaplamasının Metod aracılığı ile yapılması.
         double r=6.0;
         double alan=alanHesapla(r);
         double cevre=cevreHesapla(r);

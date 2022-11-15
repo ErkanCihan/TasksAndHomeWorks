@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Ornekler2 {
     public static void main(String[] args) {
+
+        //Kullanıcı tarafından klavyeden girilen bir sayının asign edilmiş bir sayı ile karşılaştırılmasını
+        //If - Else metodu ile yapan Program.
         int sayi = 21;
         Scanner input = new Scanner(System.in);
         System.out.println("Bir sayı tuttum.");
