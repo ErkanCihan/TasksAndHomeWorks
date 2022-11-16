@@ -1,4 +1,5 @@
 package day28;
 
-public class Ucgen {
+public class Ucgen extends Sekil{
+
 }

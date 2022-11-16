@@ -11,6 +11,8 @@ public class MainApp {
 
         Ucgen u1=new Ucgen();
 
+        System.out.println(k1.alanHesapla());
+
 
     }
 }
