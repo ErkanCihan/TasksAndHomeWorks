@@ -1,0 +1,35 @@
+Bir kafeterya için yazarkasa programı geliştirilecektir. Lütfen aşağıdaki görevleri yerine getiriniz.
+
+record ile Urun sınıfını tasarlayınız. Alanlar: int id, String adi, double fiyat, int miktar
+
+Urun sınıfı içinde public static List stokHazirla() metodunu tasarlayınız. Aşağıdaki listeyi döndürmelidir.
+
+List.of( new Urun(1,"Tost",2.5,50), new Urun(2,"Çay",1.0,70), new Urun(3,"Çorba",3.0,80), new Urun(4,"Sütlü Tatlı",4.0,40), new Urun(5,"Ayran",2.0,100), new Urun(6,"Gazoz",2.0,100), new Urun(7,"Soda",2.0,75), new Urun(8,"Cola",2.0,120), new Urun(9,"Baklava",5.0,30), new Urun(10,"Salata",3.0,60), new Urun(11,"Börek",4.0,10) );
+
+Stok sınıfını tasarlayınız. ArrayList'den extend edilecektir.
+
+public void listele() metodunu declarative olarak geliştiriniz.
+
+public void isimSiraliListele() metodunu declarative olarak geliştiriniz.
+
+public void fiyataGoreListele() metodunu declarative olarak geliştiriniz.
+
+public void fiyataGoreTersSiraliListele() metodunu declarative olarak geliştiriniz.
+
+public void fiyataGoreTersveMiktaraGoreTersSiraliListele() metodunu declarative olarak geliştiriniz.
+
+Main class - main metodu tasarlayınız.
+
+main metodu içerisinde bir stok nesnesi oluşturup Urun.stokHazirla() metodu ile doldurunuz.
+
+stok için tasarladığınız bütün listeleme metotlarını çalıştırınız. Aralarında birer satır boşluk olmasına dikkat ediniz.
+
+Listenin ilk n elemanını ekranda gösteren declarative kodu yazınız. Method : List head(int quantity) ipucu : limit
+
+Varsayılan olarak ilk 5 eleman listelenmelidir. Method: List head()
+
+Listenin son n elemanını ekranda gösteren declarative kodu yazınız. Method : List tail(int quantity) ipucu: skip
+
+Varsayılan olarak son 5 eleman listelenmelidir. Method: List tail()
+
+Main class - main metodunda kodların çalıştığını test ediniz.

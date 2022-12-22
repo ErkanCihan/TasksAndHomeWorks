@@ -23,7 +23,7 @@ public class MainApp1 {
 
 
 
-    public static void sekilInfo(@NotNull Sekil sekil){
+    public static void sekilInfo(@ NotNull Sekil sekil){
 
         System.out.println("-".repeat(40));
 

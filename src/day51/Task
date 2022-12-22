@@ -1,0 +1,23 @@
+TASK
+
+Bir otomobil galerisi için uygulama geliştirilecektir. Lütfen aşağıdaki görevleri yerine getiriniz.
+
+record ile bir Car sınıfı tasarlayınız. (id:int ve name:String)
+
+class ile ShowRoom sınfı tasarlayınız. (cars:Car[] ve count:int)
+
+Iterable interface'ini implemente etmelidir.
+
+Ayrıca add(Car car) ve Car get(int index) metotlarını tasarlayınız.
+
+iterator() metoduna dönüş sağlayabilmek için bir inner class tasarlayınız.
+
+inner class CarIterator isimli olmalı ve Iterator interface'ini implemente etmelidir.
+
+CarIterator private ShowRoom ve private index:int üyelerine sahip olmalı.
+
+Ayrıca Constructor'dan ShowRoom almalıdır.
+
+Diğer gerekli kodları yazınız.
+
+Main class - main metodu içerisinde kullanınız.
