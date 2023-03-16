@@ -28,4 +28,4 @@ public class Task1 {
             //liste.sort(Collator.getInstance(new Locale("tr","TR")));
         }
     }
-}
+

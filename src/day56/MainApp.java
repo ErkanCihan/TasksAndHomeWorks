@@ -1,12 +1,9 @@
 package day56;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class MainApp {
-
-
-import java.util.Comparator;
-import java.util.List;
 
 
         public static void main(String[] args) {
@@ -52,4 +49,4 @@ import java.util.List;
             System.out.printf("%10d\n",555);
         }
     }
-}
+

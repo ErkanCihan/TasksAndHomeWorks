@@ -1,10 +1,5 @@
 package day57;
 
-import java.util.List;
-
-public class Task2 {
-
-
 import java.text.Collator;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -12,6 +7,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
+public class Task2 {
 
         public static void main(String[] args) {
             List<Sanatci> sanatcilar = Arrays.asList(
@@ -94,4 +90,4 @@ import java.util.stream.Collectors;
     }
 
     record Sanatci(String isim, int filmAdedi){}
-}
+
