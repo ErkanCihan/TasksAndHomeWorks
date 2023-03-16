@@ -3,7 +3,7 @@ package day46;
 import java.io.File;
 import java.util.Scanner;
 
-public class Task1 {
+public class  Task1 {
     public static void main(String[] args) {
         /*
             Task 1: Kayıtlı bir dosyanın var olup olmadığını kontrol edip silen Java programını yazınız.
